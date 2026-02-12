@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="27 Band — Night Patrol: Barracks on Steam. Patrol an abandoned Chinese apartment where time loops endlessly. Find anomalies or never escape." />
+  <meta property="og:title" content="27 Band — Night Patrol: Barracks" />
+  <meta property="og:description" content="You patrol an abandoned Chinese apartment where time loops endlessly. Watch closely, find anomalies on every floor." />
+  <meta property="og:type" content="website" />
+  <!-- Optional: add og:image once you have one -->
+  <!-- <meta property="og:image" content="https://yourdomain.com/assets/cover.jpg" /> -->
+
+  <title>27 Band — Night Patrol: Barracks</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.svg" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="27 Band Home">
+        <span class="brand-mark" aria-hidden="true">27</span>
+        <span class="brand-name">Band</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#game">Game</a>
+        <a href="#studio">Studio</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-sm" href="https://store.steampowered.com/app/4103550/Night_PatrolBarracks/" target="_blank" rel="noreferrer">
+          View on Steam
+        </a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">27 Band</p>
+          <h1>Night Patrol: Barracks</h1>
+          <p class="lead">
+            You patrol an abandoned Chinese apartment where time loops endlessly.
+            Watch closely, find anomalies on every floor. If you ignore them,
+            you will never escape this building.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="https://store.steampowered.com/app/4103550/Night_PatrolBarracks/" target="_blank" rel="noreferrer">
+              Wishlist / Play on Steam
+            </a>
+            <a class="btn btn-ghost" href="#game">Learn more</a>
+          </div>
+
+          <div class="micro">
+            <span class="dot"></span>
+            <span>Atmospheric observation horror • Anomaly-spotting • Time loop</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-media" role="img" aria-label="Night Patrol: Barracks visual">
+            <!-- Optional: replace with a real image -->
+            <!-- <img src="assets/cover.jpg" alt="Night Patrol: Barracks" /> -->
+          </div>
+          <div class="hero-card-body">
+            <div class="hero-card-title">A building that remembers.</div>
+            <div class="hero-card-sub">
+              Every floor hides something wrong. The loop only ends when you stop missing it.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAME -->
+    <section id="game" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Game</h2>
+          <p>Find what doesn’t belong — before the loop resets again.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Core premise</h3>
+            <p>
+              Patrol an abandoned Chinese apartment building caught in an endless time loop.
+              Observe carefully, identify anomalies on every floor, and decide what to do.
+              Ignore them and the building will keep you.
+            </p>
+            <ul class="list">
+              <li><span class="pill">Observation</span> Spot subtle changes in space and time</li>
+              <li><span class="pill">Anomalies</span> Each floor can betray expectations</li>
+              <li><span class="pill">Consequence</span> Miss too much, and you never leave</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Trailer & screenshots</h3>
+            <p class="muted">
+              Drop in your trailer embed later (YouTube) or add screenshots in <code>/assets</code>.
+              For now, this area is a clean placeholder.
+            </p>
+
+            <div class="shots">
+              <div class="shot" title="Add screenshot1.jpg">
+                <!-- <img src="assets/screenshot1.jpg" alt="Screenshot 1" /> -->
+              </div>
+              <div class="shot" title="Add screenshot2.jpg">
+                <!-- <img src="assets/screenshot2.jpg" alt="Screenshot 2" /> -->
+              </div>
+              <div class="shot" title="Add screenshot3.jpg">
+                <!-- <img src="assets/screenshot3.jpg" alt="Screenshot 3" /> -->
+              </div>
+            </div>
+
+            <div class="cta-row">
+              <a class="btn" href="https://store.steampowered.com/app/4103550/Night_PatrolBarracks/" target="_blank" rel="noreferrer">
+                Steam Page
+              </a>
+              <a class="btn btn-ghost" href="#contact">Press / Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid three top-gap">
+          <div class="card subtle">
+            <h3>Watch closely</h3>
+            <p class="muted">The smallest detail can be the difference between progress and repetition.</p>
+          </div>
+          <div class="card subtle">
+            <h3>Trust nothing</h3>
+            <p class="muted">The building evolves. Familiar routes turn unfamiliar without warning.</p>
+          </div>
+          <div class="card subtle">
+            <h3>Break the loop</h3>
+            <p class="muted">Survival is attention. Escape is understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDIO -->
+    <section id="studio" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Studio</h2>
+          <p>Small team. Focused craft. Stories told through systems and atmosphere.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>About 27 Band</h3>
+            <p>
+              27 Band is a small game studio creating narrative-driven experiences with a strong sense of place.
+              We like minimal UI, clear interactions, and worlds that reward careful attention.
+            </p>
+            <p class="muted">
+              We build games that feel like you’re walking through a memory — familiar, but slightly wrong.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What we value</h3>
+            <ul class="list">
+              <li><span class="pill">Clarity</span> Simple pages, fast loading, no fluff</li>
+              <li><span class="pill">Mood</span> Atmosphere that supports gameplay</li>
+              <li><span class="pill">Intent</span> Every mechanic has a reason to exist</li>
+            </ul>
+
+            <div class="note">
+              <div class="note-title">Optional next step</div>
+              <div class="muted">
+                Add a tiny “Devlog” section later (even 3 posts) — publishers and press love this.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Business, press, collaborations, and other inquiries.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Email</h3>
+            <p class="muted">
+              Replace the email below with your real studio address.
+            </p>
+            <p class="contact-line">
+              <a class="contact" href="mailto:hello@27band.games">hello@27band.games</a>
+            </p>
+
+            <h3 class="top-gap-sm">Social</h3>
+            <p class="muted">Add links when you’re ready.</p>
+            <div class="social">
+              <a href="#" aria-disabled="true">X / Twitter</a>
+              <a href="#" aria-disabled="true">YouTube</a>
+              <a href="#" aria-disabled="true">Discord</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Press kit (optional)</h3>
+            <p class="muted">
+              If you don’t have one yet, keep this simple: 6–10 screenshots, logo, key art,
+              short description, and contact email. You can host it as a folder in this repo later.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-ghost" href="https://store.steampowered.com/app/4103550/Night_PatrolBarracks/" target="_blank" rel="noreferrer">
+                Steam Assets
+              </a>
+              <a class="btn" href="#top">Back to top</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="muted">© <span id="year"></span> 27 Band. All rights reserved.</div>
+          <div class="muted">Built with GitHub Pages.</div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
